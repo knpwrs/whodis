@@ -1,5 +1,9 @@
 # whodis
 
+[![Test](https://github.com/knpwrs/whodis/actions/workflows/test.yml/badge.svg)](https://github.com/knpwrs/whodis/actions/workflows/test.yml)
+[![Release](https://github.com/knpwrs/whodis/actions/workflows/release.yml/badge.svg)](https://github.com/knpwrs/whodis/actions/workflows/release.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/knpwrs/whodis)](https://goreportcard.com/report/github.com/knpwrs/whodis)
+
 > A modern, colorful CLI tool for WHOIS lookups
 
 **whodis** is to `whois` what [doggo](https://github.com/mr-karan/doggo) is to `dig` - a beautiful, user-friendly command-line interface that makes WHOIS queries more readable and enjoyable.
@@ -15,11 +19,29 @@
 
 ## Installation
 
+### Homebrew
+
+```bash
+brew install knpwrs/tap/whodis
+```
+
+### eget
+
+```bash
+eget knpwrs/whodis
+```
+
+### Pre-built binaries
+
+Download the latest release from the [releases page](https://github.com/knpwrs/whodis/releases).
+
+### Using Go
+
 ```bash
 go install github.com/knpwrs/whodis/cmd/whodis@latest
 ```
 
-Or build from source:
+### Build from source
 
 ```bash
 git clone https://github.com/knpwrs/whodis.git
